@@ -1,0 +1,14 @@
+
+/* 자식 선택자 */
+.parent > li {
+  color: red;
+}
+
+.ancestor > li {
+  color: blue;
+}
+
+/* 후손 선택자 */
+ul p {
+  color: rgb(57, 219, 184);
+}

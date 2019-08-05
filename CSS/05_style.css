@@ -1,0 +1,28 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #aaff22;
+  text-align: center; /* div내부 텍스트 */
+  line-height: 100px; /* 글자의 높이를 100px로 맞춰서 중앙에 맞춘것 처럼 보인다 */
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red {
+  color: red;
+}
+
+body {
+  height: 100%;
+}

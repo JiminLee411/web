@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 1. Headong(제목) -->
+  <h1>H1, 문서의 제목</h1>
+  <!-- h1+h2+h3+h4친 후 + Tab 누르면 아래처럼 한번에 완성돼 -->
+  <h2>H2, 문서의 제목 <!-- ctrl + alt + 방향키아래 누리면 동시에 쓸수있어 --></h2>
+  <h3>H3, 문서의 제목 <!-- ctrl + alt + 방향키아래 누리면 동시에 쓸수있어 --></h3>
+  <h4>H4, 문서의 제목 <!-- ctrl + alt + 방향키아래 누리면 동시에 쓸수있어 --></h4>
+  <h5>H5, 문서의 제목 <!-- ctrl + alt + 방향키아래 누리면 동시에 쓸수있어 --></h5>
+  <h6>H6, 문서의 제목 <!-- ctrl + alt + 방향키아래 누리면 동시에 쓸수있어 --></h6>
+  <h7>H7은 없습니다.</h7>
+
+  <!-- 2.  문서의 단락(paragraph) -->
+  <p>문서의 단락을 나눕니다.</p>
+  p태그를 적용하지 않았습니다.
+  <!-- 3. br -->
+  HTML에서는 태그가 작성되지 않은 상태에서 enter나 공백이 적용되지 않습니다.
+  <br> br 태그를 작성하면, <br>나눠집니다.
+  <p>안녕하세요. <br> 김대전입니다.</p>
+  <!-- 4. 텍스트 꾸미기 (bold) -->
+  <p>안녕하세요!
+    <b>볼드체입니다.</b>
+    <strong>볼드체이지만, 시맨틱태그입니다.</strong>
+  </p>
+  <!--  5. 텍스트 꾸미기 (italic) -->
+  <p>
+    <i>기울임체(이탤릭체)입니다.</i>
+    <em>이탤릭체이지만, 시맨틱태그입니다.</em> <!-- emphasized -->
+  </p>
+  <!-- 6. 텍스트 꾸미기 하이라이팅 -->
+  <span>이건 <mark>주목</mark>해주세요</span>
+  <!-- 7. 기타 텍스트 -->
+  <p>이건 <del>취소</del>해주세요.</p>
+  <p>이건 <ins>추가</ins>해주세요.</p>
+  <p>하이!<sub>안녕하세요.</sub></p>
+  <p>하이!<sup>안녕하세요.</sup></p>
+  <!-- 8. pre -> ``` ``` (프리태그를 하면 실제 공백만큼 공백이 띄어져서 출력) -->
+  <pre>
+    import requests
+    for in in range(10):
+      print(i)
+  </pre>
+  <!-- 9. 인용문 표기(blockquote) -> > -->
+  <p>
+    지수가 말했다. <q>쉬는 시간 언제인가요?</q>
+  </p>
+  <!-- 10. 수평선 -->
+  <hr>
+  <!-- 11. 리스트 -->
+  <!-- ol>li*3 을 치면 아래와 같이 나온다. (oldered list) -->
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  <ol>
+    <li>이것은</li>
+    <li>순서가 있는</li>
+    <li>리스트</li>
+  </ol>
+  <!-- ul>li*3 을 치면 아래와 같이 나온다. (unoldered list) -->
+  <ul>
+    <li>이것은</li>
+    <li>순서가 없는</li>
+    <li>리스트</li>
+  </ul>
+  <li>그냥 리스트</li>
+  <li>태그 사용</li>
+  <!-- 12. 이미지.비디오 등 -->
+  <!-- img 태그 속성
+        src : 파일의 경로 - 로컬/웹
+        alt : 대체 텍스트(이미지가 없는 경우 혹은 스크린리더 등에서 활용)
+        width/height : 너비/높이 -->
+  <img src="watre.jpg" alt="수박수박" width="300px" height="300px">
+  <img src="wate.jpg" alt="수박수박" width="300px" height="300px"> <!-- 파일명 이름이 틀리면? 깨진 이미지 나온다 -->
+  <!-- iframe : 외부사이트의 내용을 내 사이트에 추가 -->
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/rhKsW5YILOc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- 13. 링크 태그 -->
+  <a href="https:google.com">구글로 가기</a>
+</body>
+</html>
